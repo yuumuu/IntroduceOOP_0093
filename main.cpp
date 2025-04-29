@@ -19,6 +19,13 @@ class Mahasiswa {
 };
 
 int main() {
+    Mahasiswa mhs;
+
+    mhs.nim     = 2024;
+    mhs.nama    = "Haidar Yahya Mudhofar";
+    mhs.nilai   = 100.0;
+
+    mhs.printData();
     
     return 0;
 }
